@@ -1,5 +1,5 @@
 {
-  "name": "cypress",
+  "name": "cypress-monorepo",
   "version": "6.2.0",
   "description": "Cypress.io end to end testing tool",
   "private": true,
@@ -153,7 +153,7 @@
     "inquirer-confirm": "2.0.3",
     "jest": "24.9.0",
     "js-codemod": "cpojer/js-codemod",
-    "jscodemods": "cypress-io/jscodemods#01b546e",
+    "jscodemods": "cypress-io/jscodemods#01b546e627b7a6ffccd10579081d023d67394df8",
     "jscodeshift": "0.7.0",
     "konfig": "0.2.1",
     "lazy-ass": "1.6.0",
@@ -242,10 +242,5 @@
       "eslint --fix --max-warnings=0",
       "git add"
     ]
-  },
-  "resolutions": {
-    "**/@types/react": "16.9.50",
-    "**/jquery": "3.1.1",
-    "**/pretty-format": "26.4.0"
   }
 }

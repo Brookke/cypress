@@ -101,9 +101,7 @@
     "types/**/*.d.ts",
     "types/net-stubbing.ts"
   ],
-  "bin": {
-    "cypress": "bin/cypress"
-  },
+  "bin": "bin/cypress",
   "engines": {
     "node": ">=10.0.0"
   },
